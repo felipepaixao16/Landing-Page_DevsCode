@@ -132,7 +132,7 @@ body {
     row-gap: 2rem;
     justify-content: center;
     margin-top: 150px;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 }
 
 .box__box {
@@ -161,4 +161,50 @@ body {
     font-size: .8rem;
     font-family: 'Noto Sans JP', sans-serif;
     color: #D0D4DF;
+}
+
+.section__two {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.img__section-two {
+    width: 650px;
+    margin: 0;
+}
+
+.section__text-area {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    margin-top: 110px;
+}
+
+.section__two-h2 {
+    width: 300px;
+    margin-bottom: 15px;
+    word-break: normal;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.section__two-p {
+    margin-bottom: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+}
+
+.section__two-link {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #7ADDDD;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section__two-link::after {
+    content: " ➭ ";
 }
