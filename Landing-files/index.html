@@ -9,6 +9,9 @@
     <!--========== UNICONS ==========-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+    <!--=========== FLATICON ==========-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -31,21 +34,22 @@
             </nav>
         </section>
     </header>
-
     <main class="main">
-        <div class="img__principal-one">
-            <img src="imagens/developer.png" alt="" class="img__principal">
-        </div>
-
-        <div class="text__main-box">
-            <h1 class="text__main-one">Todos os seus arquivos em um local seguro, acessível em qualquer lugar.</h1>
-            <p class="paragrafo__main-one">O DevsCode armazena todos os seus arquivos mais importantes em um local
-             seguro. <br> Acesse-os sempre que precisar, compartilhe e colabore com <br> amigos, família e colegas de trabalho</p>
-        </div>
-        
-        <div class="button__main">
-            <a href="https://discord.gg/XtUQuxzV" class="button__main-link">Vamos Começar</a>
-        </div>   
+        <section class="principal">
+            <div class="img__principal-one">
+                <img src="imagens/developer.png" alt="" class="img__principal">
+            </div>
+    
+            <div class="text__main-box">
+                <h1 class="text__main-one">Todos os seus arquivos em um local seguro, acessível em qualquer lugar.</h1>
+                <p class="paragrafo__main-one">O DevsCode armazena todos os seus arquivos mais importantes em um local
+                 seguro. <br> Acesse-os sempre que precisar, compartilhe e colabore com <br> amigos, família e colegas de trabalho</p>
+            </div>
+            
+            <div class="button__main">
+                <a href="https://discord.gg/XtUQuxzV" class="button__main-link">Vamos Começar</a>
+            </div>
+        </section>   
         <div class="back__section">
             <section class="section__grades">
             <div class="box__container container grid">
@@ -161,7 +165,7 @@
                     Se você tiver alguma dúvida, nossa equipe de suporte ficará feliz em ajudá-lo.</p>
                     <span class="input__form">
                         <input type="text" class="email__form" required placeholder="seuemail@dominio.com">
-                        <a href="submit" class="enviar">Comece de graça!</a>
+                        <input type="submit" value="Comece de graça!" class="enviar">
                     </span>
                 </div>
             </section>
@@ -174,35 +178,39 @@
                 <i class="uil uil-box logo__icon"></i>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3541.0755753051385!2d-38.4344020030909!3d-
                 12.872145561871584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1675553680223!5m2!1spt-BR!2sbr"
-                 width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                 class="mapa"></iframe>
             </div>
 
-            <div class="listas">
-                <ul class="footer__ul-contact">
-                    <li class="li__contact">(71)98293-7992</li>
-                    <li class="li__email">FelipeAlves_16@outlook.com</li>
-                </ul>
-    
-                <ul class="footer__ul-uteis-one">
-                    <li class="li__uteis-one"><a href="" class="links__uteis-one">Sobre Nós</a></li>
-                    <li class="li__uteis-one"><a href="" class="links__uteis-one">Empregos</a></li>
-                    <li class="li__uteis-one"><a href="" class="links__uteis-one">Imprenssa</a></li>
-                    <li class="li__uteis-one"><a href="" class="links__uteis-one">Blog</a></li>
-                </ul>
-    
-                <ul class="footer__ul-uteis-two">
-                    <li class="li__uteis-two"><a href="" class="links__uteis-two">Contate-Nos</a></li>
-                    <li class="li__uteis-two"><a href="" class="links__uteis-two">Termos</a></li>
-                    <li class="li__uteis-two"><a href="" class="links__uteis-two">Privacidade</a></li>
-                </ul>
-    
-                <ul class="redes__sociais">
-                    <li class="li-redes__sociais"><i class="uil uil-facebook-f redes__sociais"></i></li>
-                    <li class="li-redes__sociais"><i class="uil uil-twitter redes__sociais"></i></li>
-                    <li class="li-redes__sociais"><i class="uil uil-instagram redes__sociais"></i></li>
-                </ul>
-            </div>
+                <nav class="listas">
+                    <ul class="footer__ul-contact">
+                        <li class="li__contact"><i class="fi fi-sr-phone-call icon__footer"></i>(71) 98293-7992</li>
+                        <li class="li__email"><i class="fi fi-sr-envelope icon__footer"></i>FelipeAlves_16@outlook.com</li>
+                    </ul>
+        
+                    <ul class="footer__ul-uteis-one">
+                        <li class="li__uteis-one"><a href="" class="links__uteis-one">Sobre Nós</a></li>
+                        <li class="li__uteis-one"><a href="" class="links__uteis-one">Empregos</a></li>
+                        <li class="li__uteis-one"><a href="" class="links__uteis-one">Imprenssa</a></li>
+                        <li class="li__uteis-one"><a href="" class="links__uteis-one">Blog</a></li>
+                    </ul>
+        
+                    <ul class="footer__ul-uteis-two">
+                        <li class="li__uteis-two"><a href="" class="links__uteis-two">Contate-Nos</a></li>
+                        <li class="li__uteis-two"><a href="" class="links__uteis-two">Termos</a></li>
+                        <li class="li__uteis-two"><a href="" class="links__uteis-two">Privacidade</a></li>
+                    </ul>
+
+                    <div class="redes__sociais">
+                        <ul class="redes__sociais-ul">
+                            <li><a href="" class="a-redes__sociais"><i class="uil uil-facebook-f redes__sociais-a"></i></a></li>
+                            <li><a href="" class="a-redes__sociais"><i class="uil uil-twitter redes__sociais-a"></i></a></li>
+                            <li><a href="" class="a-redes__sociais"><i class="uil uil-instagram redes__sociais-a"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
         </section>
+        <p class="copyright">&copy; Copyright Felipe Paixão - 2023</p>
     </footer>
 </body>
 </html>
